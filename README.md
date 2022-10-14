@@ -1,24 +1,44 @@
-# README
+# Book Store App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**Scenario:** You are required to develop simple & minimize book store web app. To help user to record and update the book information. We are providing a github repository for you to use as a starting point. You may fork this repo and create a pull request when you're done.
 
-Things you may want to cover:
+**Goal:** To asses your skills level of Ruby on Rails.
 
-* Ruby version
+## Requirements
 
-* System dependencies
+- Create CRUDs (Index, Show, New, Create, Edit, Update, Destroy) for the following resource:
+  - Book: title, author, genre, serial_number, published_year, fiction(boolean)
+  - Author: name
+  - Genre: name
+- Form validation where you see fit
+### Bonus Points
 
-* Configuration
+- Test Driven Development (TDD)
+- User authentication, protect the app behind a login page (hint: an user account has been created, login with *user@griter.io:password*)
+- UI components using Vue.js
+- Use of Tailwind CSS
+- Any other features you think is necessary
+- File upload for book cover
 
-* Database creation
+## What we are looking for
 
-* Database initialization
+- Completion of the requirements
+- Small commits
+- Comments on code when required
+- DRY code<
 
-* How to run the test suite
+You do not need to deploy the app but make sure it's ready for demo
 
-* Services (job queues, cache servers, search engines, etc.)
+## Codebase Setup
 
-* Deployment instructions
-
-* ...
+**Prerequisites:** Ruby 2.7.2, Node.js 14 or above
+          
+- Run `bundle install`
+- Run `yarn install`
+- Run `rails s`
+- On second terminal, run `bin/webpack-dev-server`
+- Visit [localhost](http://localhost:3000)
+- Voila! You're here.
+       
+Feel free to contact us if you have any questions.
+       
