@@ -38,7 +38,7 @@
         <p>
         <ul>
           <li>Test Driven Development (TDD)</li>
-          <li>User authentication, protect the app behind a login page</li>
+          <li>User authentication, protect the app behind a login page (hint: an user account has been created, login with <i>user@griter.io:password</i>)</li>
           <li>File upload for book cover</li>
           <li>UI components using Vue.js</li>
           <li>Use of Tailwind CSS</li>
